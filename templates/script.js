@@ -28,22 +28,22 @@ angular.module('portfolio.templates', ['ngRoute'])
 	}])
 
 	.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
-		$http.get('????????').then(function(response){
+		$http.get('').then(function(response){
 			$scope.main = response.data;
 		});
 	}])
 	.controller('AboutCtrl', ['$scope', '$http', function($scope, $http){
-		$http.get('????????').then(function(response){
+		$http.get('').then(function(response){
 			$scope.about = response.data;
 		});
 	}])
 	.controller('ProjectsCtrl', ['$scope', '$http', function($scope, $http){
-		$http.get('????').then(function(response){
+		$http.get('').then(function(response){
 			$scope.projects = response.data;
 		});
 	}])
 	.controller('ContactCtrl', ['$scope', '$http', function($scope, $http){
-		$http.get('??????').then(function(response){
+		$http.get('').then(function(response){
 			$scope.contact = response.data;
 		});
 	}])
